@@ -450,3 +450,11 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 4.30.5.194 at 2018-08-15 20:46:45 +0000
+
+
+Started GET "/posts/1/edit" for 4.30.5.194 at 2018-08-15 20:48:45 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 14.5ms | ActiveRecord: 1.1ms)
